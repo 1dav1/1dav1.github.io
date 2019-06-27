@@ -2,13 +2,13 @@
     font-family: "accent";
     font-style: normal;
     font-weight: normal;
-    src: url("D:/Шаг/HTML-CSS/Hwork3/font/Cousine/Cousine-Bold.ttf") format("truetype");
+    src: url("../fonts/Cousine-Bold.ttf") format("truetype");
 }
 @font-face{
     font-family: "base";
     font-style: normal;
     font-weight: normal;
-    src: url("D:/Шаг/HTML-CSS/Hwork3/font/EB_Garamond/EBGaramond-Regular.ttf") format("truetype");
+    src: url("../font/EBGaramond-Regular.ttf") format("truetype");
 }
 
 ul{list-style-type: none;}
