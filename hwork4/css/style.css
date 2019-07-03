@@ -2,13 +2,13 @@
     font-family: "accent";
     font-style: normal;
     font-weight: normal;
-    src: url("fonts/Roboto/Roboto-Black.ttf") format("truetype");
+    src: url("/fonts/Roboto/Roboto-Black.ttf") format("truetype");
 }
 @font-face{
     font-family: "base";
     font-style: normal;
     font-weight: normal;
-    src: url("fonts/EB_Garamond/EBGaramond-Regular.ttf") format("truetype");
+    src: url("/fonts/EB_Garamond/EBGaramond-Regular.ttf") format("truetype");
 }
 body{
     background-attachment: fixed;
