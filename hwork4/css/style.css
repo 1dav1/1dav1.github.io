@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic-ext'); */
+
+@font-face{
+    font-family: "accent";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Roboto/Roboto-Black.ttf") format("truetype");
+}
+@font-face{
+    font-family: "base";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/EB_Garamond/EBGaramond-Regular.ttf") format("truetype");
+}
+body{
+    background-attachment: fixed;
+    background-image: url("../img/drawn-pattern-wood-565329-9100059.jpg");
+    
+} 
+    
+
+.picture{
+    height: 500px;
+    width: 600px;
+    float: right;
+margin-right: 20px;
+    background-image: url("../img/TheReturnOfTheKing.jpg"); 
+    alt: "Lord Of The Rings";
+background-repeat: no-repeat;
+background-position: center;
+overflow: hidden;
+}
+
+/* .summary{
+width: 350px;
+} */
+
+ul{list-style-type: none;}
+/* .list {list-style-type: disc;} */
+li.dialogue:before {content: "-";
+                    padding-right: 20px;}
+li.dialogue{list-style-position: outside;}
+
+li.dialogue, p, b{font-family: base;}
+
+li.head:before {
+    content: "\2022";
+    padding-right: 20px;
+}
+li.head{
+    list-style-position: outside;
+}
+
+p {text-indent: 20px;
+   text-align: justify;
+}
+h1, h2, h3 {
+    font-family: accent;
+}
+
+.gwrapper{
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FFFFF0, #DEB887);
+    border-style: ridge;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+}
+a.l{
+    color: #D4524E;
+}
