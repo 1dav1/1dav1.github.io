@@ -23,9 +23,7 @@ body{
     transition: left 1s ease-out 0.5s;
     border-radius: 50%;
 }
-#butt{
-    margin-top: 20px;
-}
+
 #container{
     position: relative;
     width: 100%;
