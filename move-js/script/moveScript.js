@@ -15,6 +15,6 @@ circ1.addEventListener('click', () => {
 circ2.addEventListener('click', () => {
     if (div2.offsetLeft == -18){
         div.style.left = '50px';
-        div2.style.left = '0px';
+        div2.style.left = '0';
     }
 })
