@@ -3,6 +3,6 @@ First1\
 move-js: Customized radio button.
 
 
-```bash     
+```console     
 dotnet test     
 ```
